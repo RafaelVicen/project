@@ -67,41 +67,36 @@ main {
   margin-bottom: 2%;
 }
 
-.item.clicado{
+.item.clicado {
   background: #d4f6d9;
 }
 
-.item.clicado .item-nome{
-  text-decoration: line-through ;
+.item.clicado .item-nome {
+  text-decoration: line-through;
   color: rgb(42, 78, 0);
 }
 
 .item-icone {
   flex: 20%;
-
-  
 }
 .item-nome {
   flex: 55%;
   font-size: 20px;
   font-weight: bold;
-
 }
 .item-botao {
   flex: 25%;
- 
-
 }
 
-.delete{
+.delete {
   background: rgb(255, 72, 0);
   color: white;
   border: none;
   padding: 10px;
-  height: 80px; 
+  height: 80px;
   width: 100%;
 }
 
-.mdi-check-circle{
+.mdi-check-circle {
   color: green;
 }
