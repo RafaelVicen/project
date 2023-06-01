@@ -6,13 +6,13 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background: rgb(0, 0, 0);
+  background: rgb(202, 198, 198);
 }
 
 h1 {
   text-align: center;
   font-size: 3rem;
-  color: white;
+  color: rgb(0, 0, 0);
   /*background: rgb(255, 0, 0);
   padding: 2%;
   width: 20px;
@@ -39,7 +39,7 @@ input {
 button.add {
   width: 20%;
   cursor: pointer;
-  background: rgb(255, 65, 65);
+  background: rgb(38, 133, 1);
   color: white;
   font-weight: bold;
   border: none;
@@ -68,12 +68,12 @@ main {
 }
 
 .item.clicado{
-  background: rgb(255, 231, 180);
+  background: #d4f6d9;
 }
 
 .item.clicado .item-nome{
   text-decoration: line-through ;
-  color: rgb(110, 184, 26);
+  color: rgb(42, 78, 0);
 }
 
 .item-icone {
@@ -94,7 +94,7 @@ main {
 }
 
 .delete{
-  background: red;
+  background: rgb(255, 72, 0);
   color: white;
   border: none;
   padding: 10px;

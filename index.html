@@ -13,14 +13,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    
   </head>
   <body>
     <h1>Lista de Tarefas</h1>
 
     <header>
       <input id="inputTarefa" type="text" placeholder="Digite a sua tarefa" />
-      <button class="add">Adicionar</button>
+      <button onclick="addTarefa()" id="btn-add" class="add">Adicionar</button>
     </header>
 
     <main id="arealista">
@@ -29,12 +28,10 @@
           <i class="mdi mdi-circle-outline"></i>
         </div>
 
-        <div class="item-nome">
-          Teste de tarefa
-        </div>
+        <div class="item-nome">Teste de tarefa</div>
 
         <div class="item-botao">
-          <button class="delete"><i class=",di mdi-delete"></i> Deletar</button>
+          <button class="delete"><i class="mdi mdi-delete"></i> Deletar</button>
         </div>
       </div>
 
@@ -43,15 +40,12 @@
           <i class="mdi mdi-check-circle"></i>
         </div>
 
-        <div class="item-nome">
-          Teste de tarefa
-        </div>
+        <div class="item-nome">Teste de tarefa</div>
 
         <div class="item-botao">
-          <button class="delete"><i class=",di mdi-delete"></i> Deletar</button>
+          <button class="delete"><i class="mdi mdi-delete"></i> Deletar</button>
         </div>
       </div>
-
     </main>
 
     <script src="js/controles.js"></script>
